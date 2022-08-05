@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/39fc790722.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <header class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="./clr-logo.svg" alt="logo" class="logo top-image">
+                <img src="./logo.svg" alt="logo" class="logo">
+            </a>
+            <nav class="nav-bar" id="nav-links">
+                <ul class="nav-items">
+                    <li><a class="nav-links hidden-for-mobile" href="templates.html">Templates</a></li>
+                    <li id="select-field" class="hidden-for-mobile">
+                        <a class="nav-links" id="drop-btn" href="#/">Build website <span id="drop-down"
+                                data-icon="ic:baseline-arrow-drop-down" class="iconify"></span></a>
+                        <div class="drop-menu" id="drop-menu">
+                            <p>Choose a template</p>
+                            <ul id="drop-list">
+                                <li><a class="drop-down-options" href="blog.html">Blog</a></li>
+                                <li><a class="drop-down-options" href="ecom.html">Ecommerce</a></li>
+                                <li><a class="drop-down-options" href="Portfolio.html">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="nav-links" href="contact us.html">Contact us</a></li>
+                </ul>
+                <!-- toggle button for switchind theme goes here -->
+                <div class="wrapper-color-switch">
+                    <input type="checkbox" id="input-color-switch" />
+                    <label for="input-color-switch" class="color-switch">
+                        <div class="color-switch-toggle"></div>
+                    </label>
+                </div>
+                <!-- toggle button for switchind theme ends here -->
+                <div class="nav-buttons">
+                    <button class="login-btn btn primary-btn">Log In</button>
+                    <button class="secondary-btn btn signup-btn">Get Started</button>
+                </div>
+            </nav>
+            <a href="#/" class="hidden-for-desktop menu-hamburger menu" id="menu"><span class="iconify menu"
+                    data-icon="charm:menu-hamburger"></span></a>
+        </header>
+        <!-- ICONIFY FRAMEWORK -->
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <!-- ICONIFY FRAMEWORK -->
+        <script src="./navbar.js"></script>
+        <div class="hero-container">
+            <div class="text-section">
+                <h2>Pick a Theme for your <br> Special Website.</h2>
+                <hr class="header-line">
+                <p>
+                    Browse through our unique collection of themes, each designed <br>
+                    to meet a particular website style. Click a theme that suits your <br>
+                    website needs.
+                </p>
+            </div>
+            <div class="img-section">
+                <div class="image-container">
+                    <img class="slide-image" src="./img-1.jpg" alt="img-1">
+                    <button class="prev btn">Previous</button>
+                    <button class="next btn">Next</button>
+                </div>
+                <div class="image-container">
+                    <img class="slide-image" src="./img-2.jpg" alt="img-2">
+                    <button class="prev btn">Previous</button>
+                    <button class="next btn">Next</button>
+                </div>
+                <div class="image-container">
+                    <img class="slide-image" src="./img-3.jpg" alt="img-3">
+                    <button class="prev btn">Previous</button>
+                    <button class="next btn">Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="product">
+            <p>Product</p>
+            <p>Templates <br> Build website <br> Features <br> Signup </p>
+        </div>
+        <div id="company">
+            <p>Company</p>
+            <p>About Dsyne <br>Contact Us</p>
+        </div>
+        <div id="support">
+            <p>Support</p>
+            <p>Support center <br> Getting started <br>Documentation <br> FAQ</p>
+        </div>
+        <div id="dsyne">
+            <img src="./dsyne 2 LOGO 1.png" alt="logo" height="100px" width="100px">
+            <p id="logotxt">
+                Dsyne is the leading website builder platform <br>
+                for all content creators, irrespective of language
+                <br> and geographical boundaries. <br> <br>2022 Dsyne.com
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
