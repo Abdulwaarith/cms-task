@@ -10,7 +10,7 @@ html {
 }
 body {
   font-family: Candara, sans-serif;
-  background-color: #1f222d;
+  background-color: var(--bg-gray);
 }
 a {
   text-decoration: none;
@@ -220,7 +220,7 @@ ul {
   font-size: 50px;
   line-height: 60px;
   text-align: center;
-  color: #66fcf1;
+  color: var(--clr-content);
   margin: 20px 0;
 }
 .text-section p {
@@ -232,12 +232,12 @@ ul {
   text-align: center;
   margin: 20px;
   margin-top: 40px;
-  color: #ffffff;
+  color: var(--clr-content);
 }
 .header-line {
   width: 20%;
   margin: 0 auto;
-  border: 3px solid #fff;
+  border: 3px solid var(--white);
 }
 .img-section {
   display: flex;
@@ -253,7 +253,7 @@ ul {
 }
 
 .image-container .btn {
-  background-color: #2f6a66;
+  background-color: var(--Pastel-Turquoise);
   color: #fff;
   font-size: 12px;
   padding: 8px 14px;
@@ -274,7 +274,7 @@ ul {
 }
 .slide-image {
   border-radius: 4px;
-  border: 1px solid#fff;
+  border: 1px solid var(--white);
   width: 300px;
   height: 300px;
 }
@@ -285,10 +285,10 @@ footer {
   margin-top: 10%;
   border: 0;
   display: flex;
-  color: #fff;
+  color: var(--white);
   justify-content: space-around;
   margin-bottom: 0%;
-  background-color: #1f4744;
+  background-color: var(--Pastel-Turquoise);
 }
 footer img {
   padding: 0%;
@@ -305,7 +305,7 @@ footer p {
 .fa-brands {
   padding: 5px;
   font-size: 21px;
-  color: #fff;
+  color: var(--white);
   margin-top: -900px;
 }
 
